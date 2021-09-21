@@ -1,0 +1,19 @@
+.container {
+    /* */
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 5px;
+
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 2em;
+    color: red;
+}
+
+

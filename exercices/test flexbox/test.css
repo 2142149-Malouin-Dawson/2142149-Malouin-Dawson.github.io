@@ -1,0 +1,15 @@
+#container
+{
+     display: flex;
+     flex-direction: row;
+justify-content: space-around;
+background-color: purple;
+align-items: stretch;
+height: 200px;
+}
+#container div
+{
+     background-color:pink;
+     padding: 15px;
+border-radius: 7px;
+}

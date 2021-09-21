@@ -1,0 +1,55 @@
+#flexnomsite
+{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 200px;
+    background-color: rgb(2, 2, 92);
+    grid-template-areas: " item1 item1 ";
+}
+.siteincroyable
+{
+    grid-area: item1;
+}
+#list
+{
+  background-color: rgb(53, 48, 48);
+  text-align: center;
+}
+#container
+{
+    display: grid;
+    grid-template-columns: repeat(2 300px);
+    grid-template-rows: repeat(33 50px);
+}
+a
+{
+    text-decoration:none;
+    color: white;
+}
+footer
+{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: maroon;
+}
+#tobidance
+{
+    height: 250px;
+    width: 450px;
+}
+#moi
+{
+    text-align: justify;
+}
+#ufo
+{
+    height: 300px;
+    width: 500px;
+}
+@media print
+{
+
+
+}
+

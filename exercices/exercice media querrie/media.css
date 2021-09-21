@@ -1,0 +1,96 @@
+a
+{
+    text-decoration:none;
+    color: white;
+}
+
+html,body{margin: 0%;}
+
+#flexnomsite
+{
+display: grid;
+grid-template-columns: repeat(4 1fr);
+grid-template-rows: 200px;
+background-color: rgb(2, 2, 92);
+grid-template-areas: ". item1 item1 .";
+}
+.siteincroyable
+{
+grid-area: item1;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#list
+{
+display: grid;
+grid-template-columns: repeat(20 1fr);
+grid-template-rows: 35px;
+background-color: rgb(53, 48, 48);
+grid-template-areas: "list1 list2 list3 list4 . . . . . . . . . . . . . . . .";
+
+}
+.liste
+{
+    grid-area:list1 ;  
+}
+.liste2
+{
+    grid-area:list2 ;  
+}
+.liste3
+{
+    grid-area:list3 ;  
+}
+.liste4
+{
+    grid-area:list4 ;  
+}
+
+
+
+.liste .liste2 .liste3 .liste4
+{
+display: flex;
+align-items: flex-start;
+}
+#tobidance
+{
+    width: 425px;
+    height: 150px;
+    
+}
+#ufo
+{
+    width: 1080px;
+    height: 200px;
+}
+#moi
+{
+    grid-area: box1;
+background-color: lightgrey;
+
+}
+#article
+{
+    grid-area: box2;
+    background-color: linen;
+}
+#container
+{
+display: grid;
+grid-template-columns:400px 1fr;
+grid-template-rows: 850px;
+background-color: rgb(53, 48, 48);
+grid-template-areas: "box1 box2";
+}
+footer
+{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: maroon;
+}
